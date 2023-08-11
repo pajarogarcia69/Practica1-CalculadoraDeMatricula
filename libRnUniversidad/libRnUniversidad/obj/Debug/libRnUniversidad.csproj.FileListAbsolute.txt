@@ -1,0 +1,6 @@
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libRnUniversidad\libRnUniversidad\bin\Debug\libRnUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libRnUniversidad\libRnUniversidad\bin\Debug\libRnUniversidad.pdb
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libRnUniversidad\libRnUniversidad\obj\Debug\libRnUniversidad.csproj.AssemblyReference.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libRnUniversidad\libRnUniversidad\obj\Debug\libRnUniversidad.csproj.CoreCompileInputs.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libRnUniversidad\libRnUniversidad\obj\Debug\libRnUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libRnUniversidad\libRnUniversidad\obj\Debug\libRnUniversidad.pdb
