@@ -21,12 +21,12 @@ namespace libRnUniversidad
         #region Constructor
         public clsRnUniversidad(int intTipoEst,float fltProm,float fltValCredito,int intCredit,float fltDesc,string strError)
         {
-            intTipoEst = 0;
-            fltProm = 0;
+            intTipoEst    = 0;
+            fltProm       = 0;
             fltValCredito = 0;
-            intCredit = 0;
-            fltDesc = 0;
-            strError = string.Empty;
+            intCredit     = 0;
+            fltDesc       = 0;
+            strError      = string.Empty;
         }
         #endregion
 
