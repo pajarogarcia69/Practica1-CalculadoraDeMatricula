@@ -1,0 +1,10 @@
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\obj\Debug\libOpeUniversidad.csproj.CoreCompileInputs.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\bin\Debug\libOpeUniversidad.xml
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\bin\Debug\libOpeUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\bin\Debug\libOpeUniversidad.pdb
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\bin\Debug\libRnUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\bin\Debug\libRnUniversidad.pdb
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\obj\Debug\libOpeUniversidad.csproj.AssemblyReference.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\obj\Debug\libOpeUniversidad.csproj.CopyComplete
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\obj\Debug\libOpeUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\libOpeUniversidad\libOpeUniversidad\obj\Debug\libOpeUniversidad.pdb

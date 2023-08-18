@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-// using System.libRnUniversidad;
+// Referenciar y Usar 
+using libRnUniversidad;
 
 namespace libOpeUniversidad
 {
@@ -23,7 +24,7 @@ namespace libOpeUniversidad
 
         #region Constructor
 
-        public clsOpeUniversidad(int intTipoEst, int intCredit, float fltProm, float fltValorCred, float fltValDescuento, float fltValorPago, string strError)
+        public clsOpeUniversidad()
         {
             intTipoEst      = 0;
             intCredit       = 0;
@@ -81,6 +82,42 @@ namespace libOpeUniversidad
         #endregion
 
         #region Metodos Publicos
+        public bool hallarPago()
+        {
+           ///<summary
+           ///
+
+            clsRnUniversidad obj = new clsRnUniversidad();
+            float subTot = 0; 
+            try
+            {
+                // Enviar informacion al Objeto
+                obj.TipoEstudiante = intTipoEst;
+                obj.Promedio       = fltProm;
+                // Invocar metodo y tratamiento del error
+                if (!obj.hallarDatos())
+                {
+                    strError = obj.Error;
+                    return false;
+                }
+                // Recuperar la informacion clsRn
+                fltValorCred    = obj.ValorCredito;
+                intCredit       = obj.NumCreditos;
+                subTot          = intCredit * fltValorCred;
+                fltValDescuento = subTot * obj.Descuento / 100;
+                fltValorPago = subTot - fltValDescuento;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                strError = ex.Message;
+                return false;
+            }
+            finally
+            {
+                obj = null; // no es obligatoria 
+            }
+        }
         #endregion
     }
 }

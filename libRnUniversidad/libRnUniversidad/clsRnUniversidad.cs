@@ -19,7 +19,7 @@ namespace libRnUniversidad
         #endregion
 
         #region Constructor
-        public clsRnUniversidad(int intTipoEst,float fltProm,float fltValCredito,int intCredit,float fltDesc,string strError)
+        public clsRnUniversidad()
         {
             intTipoEst    = 0;
             fltProm       = 0;

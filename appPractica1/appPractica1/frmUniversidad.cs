@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace appPractica1
 {
-    public partial class Form1 : Form
+    public partial class frmUniversidad : Form
     {
-        public Form1()
+        public frmUniversidad()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
