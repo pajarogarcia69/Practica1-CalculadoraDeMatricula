@@ -115,6 +115,7 @@ namespace appPractica1
             this.btnLimpiar.TabIndex = 6;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnProcesar
             // 
@@ -142,6 +143,7 @@ namespace appPractica1
             this.gpbRpta.Size = new System.Drawing.Size(467, 167);
             this.gpbRpta.TabIndex = 8;
             this.gpbRpta.TabStop = false;
+            this.gpbRpta.Visible = false;
             // 
             // txtVrPagar
             // 

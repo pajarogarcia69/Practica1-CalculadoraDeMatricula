@@ -45,7 +45,6 @@ namespace appPractica1
             this.txtVrPagar.Text = String.Empty;
             this.gpbRpta.Visible = false;
             this.cmbTipoEst.Focus();
-
         }
         #endregion
 
@@ -59,6 +58,7 @@ namespace appPractica1
             
         }
 
+
         private void frmUniversidad_Load(object sender, EventArgs e)
         {
             llenarCombo();
@@ -71,7 +71,9 @@ namespace appPractica1
             float notaP;
 
             try
-            {  //Captura de datos de entrada
+            {
+                Mensaje("");
+                //Captura de datos de entrada
                 tipoE = this.cmbTipoEst.SelectedIndex;
                 if(tipoE <= 0)
                 {
@@ -106,6 +108,11 @@ namespace appPractica1
             {
                 Mensaje(ex.Message);
             }
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }
