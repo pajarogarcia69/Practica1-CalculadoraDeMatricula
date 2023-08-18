@@ -1,0 +1,16 @@
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.AssemblyReference.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.frmUniversidad.resources
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.Properties.Resources.resources
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.GenerateResource.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CoreCompileInputs.cache
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\appPractica1.exe.config
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\appPractica1.exe
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\appPractica1.pdb
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\libRnUniversidad.dll
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.pdb
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\libOpeUniversidad.xml
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\bin\Debug\libRnUniversidad.pdb
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.csproj.CopyComplete
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.exe
+C:\Users\XZEUS\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\ITM\Desarrollo De Software\Practica1-CalculadoraDeMatricula\appPractica1\appPractica1\obj\Debug\appPractica1.pdb

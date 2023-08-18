@@ -38,17 +38,17 @@ namespace appPractica1
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnProcesar = new System.Windows.Forms.Button();
             this.gpbRpta = new System.Windows.Forms.GroupBox();
+            this.txtVrPagar = new System.Windows.Forms.TextBox();
+            this.txtVrCred = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtDscto = new System.Windows.Forms.TextBox();
+            this.txtNroCred = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtNroCred = new System.Windows.Forms.TextBox();
-            this.txtVrCred = new System.Windows.Forms.TextBox();
-            this.txtDscto = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtVrPagar = new System.Windows.Forms.TextBox();
             this.txtMsj = new System.Windows.Forms.TextBox();
             this.btnTerminar = new System.Windows.Forms.Button();
             this.gpbRpta.SuspendLayout();
@@ -80,6 +80,7 @@ namespace appPractica1
             this.txtCarnet.Name = "txtCarnet";
             this.txtCarnet.Size = new System.Drawing.Size(259, 20);
             this.txtCarnet.TabIndex = 2;
+            this.txtCarnet.TextChanged += new System.EventHandler(this.txtCarnet_TextChanged);
             // 
             // txtPromedio
             // 
@@ -104,7 +105,6 @@ namespace appPractica1
             this.label2.Size = new System.Drawing.Size(174, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tipo de Estudiantes:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnLimpiar
             // 
@@ -125,6 +125,7 @@ namespace appPractica1
             this.btnProcesar.TabIndex = 7;
             this.btnProcesar.Text = "PROCESAR";
             this.btnProcesar.UseVisualStyleBackColor = true;
+            this.btnProcesar.Click += new System.EventHandler(this.btnProcesar_Click);
             // 
             // gpbRpta
             // 
@@ -141,6 +142,78 @@ namespace appPractica1
             this.gpbRpta.Size = new System.Drawing.Size(467, 167);
             this.gpbRpta.TabIndex = 8;
             this.gpbRpta.TabStop = false;
+            // 
+            // txtVrPagar
+            // 
+            this.txtVrPagar.Location = new System.Drawing.Point(190, 129);
+            this.txtVrPagar.Name = "txtVrPagar";
+            this.txtVrPagar.ReadOnly = true;
+            this.txtVrPagar.Size = new System.Drawing.Size(137, 20);
+            this.txtVrPagar.TabIndex = 18;
+            // 
+            // txtVrCred
+            // 
+            this.txtVrCred.Location = new System.Drawing.Point(190, 54);
+            this.txtVrCred.Name = "txtVrCred";
+            this.txtVrCred.ReadOnly = true;
+            this.txtVrCred.Size = new System.Drawing.Size(137, 20);
+            this.txtVrCred.TabIndex = 15;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(70, 129);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(123, 20);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Valor a Pagar:";
+            // 
+            // txtDscto
+            // 
+            this.txtDscto.Location = new System.Drawing.Point(190, 88);
+            this.txtDscto.Name = "txtDscto";
+            this.txtDscto.ReadOnly = true;
+            this.txtDscto.Size = new System.Drawing.Size(137, 20);
+            this.txtDscto.TabIndex = 16;
+            // 
+            // txtNroCred
+            // 
+            this.txtNroCred.Location = new System.Drawing.Point(190, 19);
+            this.txtNroCred.Name = "txtNroCred";
+            this.txtNroCred.ReadOnly = true;
+            this.txtNroCred.Size = new System.Drawing.Size(137, 20);
+            this.txtNroCred.TabIndex = 12;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(45, 86);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(148, 20);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Valor Descuento:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(74, 52);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(119, 20);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Valor Credito:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(74, 19);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(119, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Nro. Creditos:";
             // 
             // label3
             // 
@@ -172,78 +245,6 @@ namespace appPractica1
             this.label5.TabIndex = 11;
             this.label5.Text = "Promedio:";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(74, 19);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 20);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Nro. Creditos:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(74, 52);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 20);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Valor Credito:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(45, 86);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(148, 20);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Valor Descuento:";
-            // 
-            // txtNroCred
-            // 
-            this.txtNroCred.Location = new System.Drawing.Point(190, 19);
-            this.txtNroCred.Name = "txtNroCred";
-            this.txtNroCred.ReadOnly = true;
-            this.txtNroCred.Size = new System.Drawing.Size(137, 20);
-            this.txtNroCred.TabIndex = 12;
-            // 
-            // txtVrCred
-            // 
-            this.txtVrCred.Location = new System.Drawing.Point(190, 54);
-            this.txtVrCred.Name = "txtVrCred";
-            this.txtVrCred.ReadOnly = true;
-            this.txtVrCred.Size = new System.Drawing.Size(137, 20);
-            this.txtVrCred.TabIndex = 15;
-            // 
-            // txtDscto
-            // 
-            this.txtDscto.Location = new System.Drawing.Point(190, 88);
-            this.txtDscto.Name = "txtDscto";
-            this.txtDscto.ReadOnly = true;
-            this.txtDscto.Size = new System.Drawing.Size(137, 20);
-            this.txtDscto.TabIndex = 16;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(70, 129);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 20);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Valor a Pagar:";
-            // 
-            // txtVrPagar
-            // 
-            this.txtVrPagar.Location = new System.Drawing.Point(190, 129);
-            this.txtVrPagar.Name = "txtVrPagar";
-            this.txtVrPagar.ReadOnly = true;
-            this.txtVrPagar.Size = new System.Drawing.Size(137, 20);
-            this.txtVrPagar.TabIndex = 18;
-            // 
             // txtMsj
             // 
             this.txtMsj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -264,6 +265,7 @@ namespace appPractica1
             this.btnTerminar.TabIndex = 20;
             this.btnTerminar.Text = "TERMINAR";
             this.btnTerminar.UseVisualStyleBackColor = true;
+            this.btnTerminar.Click += new System.EventHandler(this.btnTerminar_Click);
             // 
             // frmUniversidad
             // 
@@ -286,6 +288,7 @@ namespace appPractica1
             this.Controls.Add(this.label1);
             this.Name = "frmUniversidad";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmUniversidad_Load);
             this.gpbRpta.ResumeLayout(false);
             this.gpbRpta.PerformLayout();
             this.ResumeLayout(false);

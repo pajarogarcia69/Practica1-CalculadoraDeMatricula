@@ -47,12 +47,12 @@ namespace libOpeUniversidad
 
         public int NumCreditos
         {
-            set { intCredit = value; }
-            get { return intCredit;  }
+           get { return intCredit;  }
         }
 
         public float Promedio
         {
+            set { fltProm = value; }
             get { return fltProm; }
         }
 
